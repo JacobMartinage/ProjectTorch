@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { } from './components'; 
+import { Navbar, Contact } from './components'; 
 
 
 

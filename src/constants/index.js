@@ -1,5 +1,5 @@
 import {
-    
+    jacobHeadshot  
   } from "../assets";
   
   export const navLinks = [
@@ -39,6 +39,7 @@ import {
   export const team = [
     {
         name: "Jacob Martiange",
+        icon: jacobHeadshot,
         title: "Co-Founder",
         class: "CS Sophomore",
         about: "idk write some shit",
