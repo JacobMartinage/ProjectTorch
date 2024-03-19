@@ -9,10 +9,10 @@ const App = ()  => {
     <BrowserRouter>
       <div className = "relative z-0 bg-primary">
       <Navbar/>
-      <Hero/>
-      <About/>
-      <Restaurants/>
-      <Team/>
+      {/* <Hero/> */}
+      {/* <About/> */}
+      {/* <Restaurants/> */}
+      {/* <Team/> */}
       <Contact/>
 
 

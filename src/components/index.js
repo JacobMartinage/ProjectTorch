@@ -1,24 +1,20 @@
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
-import Tech from './Tech';
-import Experience from './Experience';
-import Works from './Works';
+import Restaurants from './Restaurants';
+import Team from './Team';
+import Fork from './canvas/fork';
 import Contact from './Contact';
-import Education from './Education';
+import Loader from './Loader';
+
 
 export {
   Hero,
   Navbar,
   About,
-  Tech,
-  Experience,
-  Works,
+  Restaurants,
+  Team,
   Contact,
-  Education,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas,
-  
+  Fork,
+  Loader,
 }

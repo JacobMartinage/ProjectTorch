@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import '../index.css'; 
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import { logo, menu, close} from '../assets';
+import { logo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -40,7 +40,7 @@ const Navbar = () => {
           }}
         >
           <img src = {logo} alt = "logo" className = "w-14 h-10 object-contain"/>
-          <p className = "text-white text-[18] font-bold cursor-pointer"> Jacob Martinage </p>
+          <p className = "text-white text-[18] font-bold cursor-pointer"> Project Torch </p>
           </Link>
           <ul className = "list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((link) => (
