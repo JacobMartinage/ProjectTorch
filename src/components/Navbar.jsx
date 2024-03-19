@@ -29,8 +29,8 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <nav className={` ${styles.paddingX} w-full flex items-center z-10 bg-background ${isSticky ? 'fixed fade-in' : ''} ${fadeOut ? 'fixed fade-out' : ''}`}>
-      <div className = "w-full flex justify-between items-center mx-auto">
+    <nav className={` ${styles.paddingX} w-full flex items-center py-2 top-0 z-10 bg-background ${isSticky ? 'fixed fade-in' : ''} ${fadeOut ? 'fixed fade-out' : ''}`}>
+      <div className = "w-full flex justify-between items-center max-w-7x4 mx-auto">
         <Link 
         to = "/" 
         className = "flex items-center gap-2" 
@@ -39,19 +39,18 @@ const Navbar = () => {
           window.scrollTo(0,0)
           }}
         >
-          <img src = {logo} alt = "logo" className = "w-14 h-10 object-contain"/>
-          <p className = "text-white text-[18] font-bold cursor-pointer"> Jacob Martinage </p>
+          <img src = {logo} alt = "logo" className = "w-14 h-14 object-contain"/>
+          <p className = "text-secondary text-[28px] font-bold unselectable"> Project Torch</p>
           </Link>
           <ul className = "list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((link) => (
               <li
                 key={link.id}
-                className={`${
+                className={`hover:text-white text-[22px] cursor-pointer ${
                   active === link.title
                     ? "text-white"
                     : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
-                style={{ lineHeight: '3', paddingTop: '0px' }} 
+                } `}
                 onClick={() => setActive(link.title)}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
