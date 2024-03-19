@@ -6,10 +6,11 @@ import { styles } from '../styles';
 import { MailboxCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+// import { ForkCanvas } from './canvas'
 
 
 //
-//service_2vxcnum
+//service_2vxcnum0-
 //YkNmtMMqXxvYoOTBV
 
 const Contact = () => {
@@ -65,10 +66,10 @@ const Contact = () => {
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div 
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-black-100 rounded-2xl p-8'
+        className='flex-[0.75] bg-primary rounded-2xl p-8'
       >
         <p className = {styles.sectionSubText}>Get in Touch</p>
-        <h2 className={styles.sectionHeadText}><span className='blue-to-pink-gradient'>Contact</span></h2>
+        <h2 className={styles.sectionHeadText}><span className='orange-red-text-gradient'>Contact</span></h2>
 
         <form 
           ref={formRef}
@@ -76,7 +77,7 @@ const Contact = () => {
           className='flex flex-col gap-8 mt-12'
         >
           <label className = "flex flex-col">
-            <p className='font-medium mb-1 text-[18px]'><span className = 'blue-to-pink-gradient '>Your Name </span></p>
+            <p className='font-medium mb-1 text-[18px]'><span className = 'orange-red-text-gradient'>Your Name </span></p>
             <input 
               type="text"
               name="name"
@@ -86,7 +87,7 @@ const Contact = () => {
               className = 'bg-black-200 p-3 rounded-md text-white outline-none'></input>
           </label>
           <label className = "flex flex-col">
-          <p className='font-medium mb-1 text-[18px]'><span className = 'blue-to-pink-gradient '>Your Email </span></p>
+          <p className='font-medium mb-1 text-[18px]'><span className = 'orange-red-text-gradient '>Your Email </span></p>
             <input 
               type="email"
               name="email"
@@ -96,7 +97,7 @@ const Contact = () => {
               className = 'bg-black-200 p-3 rounded-md text-white outline-none'></input>
           </label>
           <label className = "flex flex-col">
-          <p className='font-medium mb-1 text-[18px]'><span className = 'blue-to-pink-gradient '>Your Message </span></p>
+          <p className='font-medium mb-1 text-[18px]'><span className = 'orange-red-text-gradient'>Your Message </span></p>
             <textarea 
               rows="7"
               name="message"
@@ -107,7 +108,7 @@ const Contact = () => {
           </label>
           <button 
             type="submit"
-            className = 'blue-pink-gradient py-3 px-8 rounded-xl text-white font-bold outline-none'
+            className = 'orange-gradient py-3 px-8 rounded-xl text-white font-bold outline-none'
           >
             {loading ? "Sending..." : 'Send'}
           </button>

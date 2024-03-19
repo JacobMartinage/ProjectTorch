@@ -1,5 +1,6 @@
 import {
-    jacobHeadshot  
+    jacobHeadshot,
+    coop
   } from "../assets";
   
   export const navLinks = [
@@ -25,12 +26,12 @@ import {
     },
   ];
 
-  export const restaurants = [
+  export const restaurantData = [
     {
-        title: "Restaurant Name",
-        icon: "IMAGE HERE AND IMPORT AT TOP FROM ASSETS",
-        link: "link to site here",
-        testimonial: "write testimonial from the restaurant here"
+        name: "The Coop",
+        image: coop,
+        link: "https://www.thecoopblacksburg.com/",
+        testimonial: "Our website is so much better now! We have noticed a significant increase in customers, to which we are attributing to Project Torch!"
 
     }
   

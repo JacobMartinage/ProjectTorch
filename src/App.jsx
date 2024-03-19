@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, Contact } from './components'; 
+import { Navbar, Contact, Hero, About, Restaurants } from './components'; 
 
 
 
@@ -7,11 +7,11 @@ const App = ()  => {
 
   return (
     <BrowserRouter>
-      <div className = "relative z-0 bg-primary">
-      <Navbar/>
-      {/* <Hero/> */}
-      {/* <About/> */}
-      {/* <Restaurants/> */}
+      <div className = "relative z-0 bg-background">
+      {/* <Navbar/> */}
+      <Hero/>
+      <About/>
+      <Restaurants/>
       {/* <Team/> */}
       <Contact/>
 
