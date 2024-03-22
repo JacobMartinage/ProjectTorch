@@ -1,6 +1,9 @@
 import {
     jacobHeadshot,
-    coop
+    coop,
+    website,
+    linkedIn,
+    github
   } from "../assets";
   
   export const navLinks = [
@@ -35,28 +38,133 @@ import {
 
     },
     {
-      name: "NAME",
+      name: "The Coop",
       image: coop,
-      link: "LINK HERE",
-      testimonial: "Testimonial"
+      link: "https://www.thecoopblacksburg.com/",
+      testimonial: "Our website is so much better now! We have noticed a significant increase in customers, to which we are attributing to Project Torch!"
 
     },
+    {
+      name: "The Coop",
+      image: coop,
+      link: "https://www.thecoopblacksburg.com/",
+      testimonial: "Our website is so much better now! We have noticed a significant increase in customers, to which we are attributing to Project Torch!"
+
+    },
+    {
+      name: "The Coop",
+      image: coop,
+      link: "https://www.thecoopblacksburg.com/",
+      testimonial: "Our website is so much better now! We have noticed a significant increase in customers, to which we are attributing to Project Torch!"
+
+    }
   
   ];
 
   export const teamData = [
     {
-        name: "Jacob Martiange",
+        name: "Jacob Martinage",
         icon: jacobHeadshot,
         title: "Co-Founder",
-        class: "CS Sophomore",
-        about: "idk write some shit",
+        year: "Sophomore",
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pellentesque elit vel sollicitudin. ",
         websites: [
             "https://jacobmartinage.com",
-            "https://www.linkedin.com/in/jacob-martinage/"
-        ]
+            "https://www.linkedin.com/in/jacob-martinage/",
+            "https://github.com/JacobMartinage"
 
-    }
+        ],
+        website_icons: [
+          website,
+          linkedIn,
+          github
+        ],
+        gradient: "violet-gradient"
+
+    },
+
+    {
+      name: "Jacob Martinage",
+      icon: jacobHeadshot,
+      title: "Co-Founder",
+      year: "Sophomore",
+      about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pellentesque elit vel sollicitudin. ",
+      websites: [
+          "https://jacobmartinage.com",
+          "https://www.linkedin.com/in/jacob-martinage/",
+          "https://github.com/JacobMartinage"
+
+      ],
+      website_icons: [
+        website,
+        linkedIn,
+        github
+      ],
+      gradient: "violet-gradient"
+
+  },
+
+  {
+    name: "Jacob Martinage",
+    icon: jacobHeadshot,
+    title: "Co-Founder",
+    year: "Sophomore",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pellentesque elit vel sollicitudin. ",
+    websites: [
+        "https://jacobmartinage.com",
+        "https://www.linkedin.com/in/jacob-martinage/",
+        "https://github.com/JacobMartinage"
+
+    ],
+    website_icons: [
+      website,
+      linkedIn,
+      github
+    ],
+    gradient: "violet-gradient"
+
+  },
+
+  {
+  name: "Jacob Martinage",
+  icon: jacobHeadshot,
+  title: "Co-Founder",
+  year: "Sophomore",
+  about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pellentesque elit vel sollicitudin. ",
+  websites: [
+      "https://jacobmartinage.com",
+      "https://www.linkedin.com/in/jacob-martinage/",
+      "https://github.com/JacobMartinage"
+
+  ],
+  website_icons: [
+    website,
+    linkedIn,
+    github
+  ],
+  gradient: "violet-gradient"
+
+  },
+  {
+    name: "Jacob Martinage",
+    icon: jacobHeadshot,
+    title: "Co-Founder",
+    year: "Sophomore",
+    about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada pellentesque elit vel sollicitudin. ",
+    websites: [
+        "https://jacobmartinage.com",
+        "https://www.linkedin.com/in/jacob-martinage/",
+        "https://github.com/JacobMartinage"
+
+    ],
+    website_icons: [
+      website,
+      linkedIn,
+      github
+    ],
+    gradient: "violet-gradient"
+
+  },
   ];
   
 

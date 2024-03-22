@@ -43,6 +43,7 @@
   user-select: none;
 }
 
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -66,26 +67,36 @@
     #f12711 100%
   );
 }
+.blue-gradient {
+  background: #3995ff;
+  background: linear-gradient(-90deg, #15a9ff 0%, rgba(23, 57, 248, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #2acdff 0%,
+     #0f0bff
+  );
+}
+
 
 .violet-gradient {
   background: #ff8614;
   background: linear-gradient(-90deg, #ff8018 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
-    -90deg,
-    #f58300 0%,
-    rgba(60, 51, 80, 0) 100%
+    0deg,
+    #7308a5 0%,
+     #1815cc
   );
 }
 /* USE ON CREME BG */
 .orange-red-text-gradient {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
+    to bottom,
     #cc1602,
     #ff7403
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
+    to bottom,
     #cc1602,
     #ff7403
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -113,14 +124,14 @@
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
+    to right,
     #11998e,
     #38ef7d
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
-    #11998e,
-    #38ef7d
+    to left,
+    hwb(86 2% 15%),
+    #60ff16
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -8,20 +8,19 @@ import { logo } from '../assets'
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col items-center justify-top ">
-      <div className={`${styles.paddingX} mx-auto flex items-start gap-5 mb-1 mt-8`}>
-        <div className="flex flex-col justify-center items-center w-[100px]">
-            {/* <img src={logo} alt='logo' className='w-30 h-30 object-fill rounded 2x1'/> */}
-          {/* <div className='w-5 h-5 rounded-full bg-[#ff8614]'/>
-          <div className="w-1 sm:h-20 h-10 violet-gradient"/> */}
-        </div>
-
-        <div className='flex justify-left items-center flex-col'>
-            <h1 className={`${styles.heroHeadText} text-white`}>
-                We are <span className="fire-text-gradient">Project Torch</span></h1>
-            <p className = 'flex justify-center items-center mt-3 text-text text-[24px]'>
-            We design stunning  websites for local Blacksburg restaurants for
+      
+      <div className={`${styles.paddingX} mx-auto flex items-start gap-5 mb-1 mt-2`}>
+        
+        <div className='flex justify-center items-center flex-col'>
+          <div className = 'flex justify-center items-center flex-row gap-2'> 
+            <img src={logo} alt="Project Torch Logo" className='w-24 h-24 rounded-2xl' />
+            <h1 className={`${styles.heroHeadText} text-center fire-text-gradient`}>
+      Project Torch</h1>
+          </div>
+            <p className = 'flex justify-center items-center text-center mt-3 text-text text-[24px]'>
+            We build stunning  websites for local Blacksburg restaurants for
             </p>
-            <p className = 'flex justify-center items-center mt-0 fire-text-gradient text-[30px] font-bold'>Free</p>
+            <p className = 'flex justify-center items-center mt-0 green-text-gradient text-[36px] font-[750]'>Free</p>
 
             
         </div>

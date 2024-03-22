@@ -11,13 +11,13 @@ import { restaurantData } from '../constants';
 const RestaurantCard = ({ name, testimonial, index, image, link }) => {
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-            <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="p-5 bg-primary rounded-2xl shadow-card sm:w-[360px] w-full">
+            <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="p-5 bg-primary rounded-2xl sm:w-[360px] w-full">
                 <a href={link} target="_blank" rel="noopener noreferrer"> {/* Add link here */}
                     <div className='relative w-full h-[230px]'>
                         <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
                     </div>
                     <div>
-                        <h3 className='fire-text-gradient font-bold text-[26px]'>{name}</h3>
+                        <h3 className='orange-red-text-gradient font-bold text-[26px]'>{name}</h3>
                         <p className='mt-2 text-accent text-[13px]'>{testimonial}</p>
                     </div>     
                 </a>
@@ -40,7 +40,7 @@ const Restaurants = () => {
             variants = {fadeIn("", "", 0.1, 1)}
             className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
             >
-            Here are some restaurants we've worked with, click anywhere on the card to see their new website designed by us!
+            Here are some projects we've worked on, click anywhere on the card to see their new website designed by us!
           </motion.p>
 
       </div>

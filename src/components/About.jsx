@@ -19,7 +19,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className= 'mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
         >
-        Project Torch Description
+        Project Torch is a student-led initiative dedicated to empowering local Blacksburg restaurants through free, stunning website design. We believe in the power of a strong online presence to drive business growth and community support. Our team of passionate developers and designers collaborates with restaurant owners to create websites that reflect their unique brand stories and attract more customers.
       </motion.p>
       
       
