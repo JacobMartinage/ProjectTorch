@@ -34,8 +34,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-    'service_2vxcnum', 
-    'template_srn9ref',
+    'service_f1vr3cm', 
+    'template_6w82kpp',
     {
       from_name: form.name,
       to_name: 'Jacob',
@@ -47,7 +47,7 @@ const Contact = () => {
     )
     .then(() => {
       setLoading(false);
-      alert('Thank You, I will get back to you as soon as possible!');
+      alert('Thank You, We will get back to you as soon as possible!');
       setForm({
         name: "",
         email: "",
