@@ -13,14 +13,13 @@ const Hero = () => {
         
         <div className='flex justify-center items-center flex-col'>
           <div className = 'flex justify-center items-center flex-row gap-2'> 
-            <img src={logo} alt="Project Torch Logo" className='w-24 h-24 rounded-2xl' />
-            <h1 className={`${styles.heroHeadText} text-center fire-text-gradient`}>
-      Project Torch</h1>
+
+            <h1 className={`${styles.heroHeadText} text-center text-primary`}>
+      Ditch</h1>
           </div>
             <p className = 'flex justify-center items-center text-center mt-3 text-text text-[24px]'>
-            We build stunning  websites for local Blacksburg restaurants for
+            We use advanced AI to call and cancel your subscriptions for you. Tired of waiting on hold and talking to customer service? We got you.
             </p>
-            <p className = 'flex justify-center items-center mt-0 green-text-gradient text-[36px] font-[750]'>Free</p>
 
             
         </div>

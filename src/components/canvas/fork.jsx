@@ -12,31 +12,31 @@ const Fork = () => {
       
     })  
 
-    const Fork = useGLTF('./FireForkTop2.glb')
+    const Fork = useGLTF('./ditchColored.glb')
 
     return (
       <mesh ref={ref} rotation={[0, 0, 0]}>
         
 
         <ambientLight 
-            intensity={1}
+            intensity={0.2}
             />
-        <hemisphereLight intensity={1.5}
+        <hemisphereLight intensity={1.9}
         groundColor="black"/>
         <pointLight
-        position={[1,0.5,0]} 
-        intensity={1}/>
+        position={[1,-2.5,0]} 
+        intensity={0.5}/>
         <spotLight
           position={[15,20,5]}
           angle ={20}
           penumbra={1}
-          intensity={50}
+          intensity={10}
           castShadow
           shadow-mapSize={1024}
         />
         <primitive
           object={Fork.scene}
-          position= {[0,-.5,0]}
+          position= {[0,-2,0]}
           
           />
       </mesh>
@@ -50,7 +50,7 @@ const Fork = () => {
       <Canvas
         frameloop = "always"
         shadows
-        camera= {{position: [0,-8, 0], fov: 30, rotateX: -Math.PI/8, rotateY: Math.PI/2.25 }}
+        camera= {{position: [10,-8, 0], fov: 30, rotateX: -Math.PI/8, rotateY: Math.PI/2.25 }}
       >
         <Suspense fallback={ <CanvasLoader/>}>
           
