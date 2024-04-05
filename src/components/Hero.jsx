@@ -9,13 +9,13 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col items-center justify-top ">
       
-      <div className={`${styles.paddingX} mx-auto flex items-start gap-5 mb-1 mt-2`}>
+      <div className={`${styles.paddingX} mx-auto flex items-start gap-5 mb-2 mt-2`}>
         
         <div className='flex justify-center items-center flex-col'>
           <div className = 'flex justify-center items-center flex-row gap-2'> 
-            <img src={logo} alt="Project Torch Logo" className='w-24 h-24 rounded-2xl' />
-            <h1 className={`${styles.heroHeadText} text-center fire-text-gradient`}>
-      Project Torch</h1>
+            <img src={logo} alt="Project Torch Logo" className='w-24 h-24 rounded-2xl border-solid border-4 border-[#ff7403]' />
+            <h1 className={`${styles.heroHeadText} text-center orange-red-text-gradient`}>
+      PROJECT TORCH</h1>
           </div>
             <p className = 'flex justify-center items-center text-center mt-3 text-text text-[24px]'>
             We build stunning  websites for local Blacksburg restaurants for

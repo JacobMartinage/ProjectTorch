@@ -48,7 +48,7 @@ const Team = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}><span className='fire-text-gradient'>Meet the team</span></h2>
+        <h2 className={styles.sectionHeadText}><span className='orange-red-text-gradient'>Meet the team</span></h2>
       </motion.div>
 
       <div className = 'mt-20 flex flex-wrap gap-10 justify-center'>

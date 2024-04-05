@@ -32,7 +32,7 @@ const Restaurants = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}></p>
-        <h2 className={styles.sectionHeadText}><span className='fire-text-gradient'>Our Work</span></h2>
+        <h2 className={styles.sectionHeadText}><span className='orange-red-text-gradient'>Our Work</span></h2>
       </motion.div>
 
       <div className='w-full flex'>

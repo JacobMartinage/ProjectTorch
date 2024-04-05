@@ -39,7 +39,7 @@ const Navbar = () => {
           window.scrollTo(0,0)
           }}
         >
-          <img src = {logo} alt = "logo" className = "w-14 h-14 object-contain"/>
+          <img src = {logo} alt = "logo" className = "w-14 h-14 object-contain border-solid border-2 border-black"/>
           <p className = "text-secondary text-[28px] font-bold unselectable"> Project Torch</p>
           </Link>
           <ul className = "list-none hidden sm:flex flex-row gap-10">
